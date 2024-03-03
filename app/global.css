@@ -1,0 +1,13 @@
+body {
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+  font-family: "roboto";
+}
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/Roboto-Regular.woff2");
+}
