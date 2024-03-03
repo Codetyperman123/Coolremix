@@ -11,15 +11,15 @@ const Navbar = () => {
   return (
     <NextNav shouldHideOnScroll>
       <NavbarBrand>
-        <p className="font-bold text-white text-">Shirt.com</p>
+        <Link className="font-bold text-white">Shirt.com</Link>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
+      <NavbarContent className="gap-4" justify="center">
+        <NavbarItem className="hidden sm:block">
           <Link color="foreground" href="#">
             Features
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="hidden sm:block">
           <Link color="foreground" href="#" aria-current="page">
             Why Our shirts
           </Link>
